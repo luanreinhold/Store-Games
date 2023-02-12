@@ -1,0 +1,162 @@
+.admin-consultar{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cont-faixa-cadastro{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        background-color: red;
+    }
+
+
+
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 60px;
+        background-color: #F5F6FA;
+        height: 89vh;
+    }
+
+
+    .caixa-busca {
+        display: flex;
+        justify-content: space-between;
+        border: none;
+        background-color: #fff;
+        padding: 16px 40px;
+        border-radius: 15px;
+        box-shadow: 1px 1px 5px rgb(220, 220, 220);
+        width: 40%;
+        margin-top: 30px;
+    }
+    .caixa-busca input {
+        background: none;
+        border: none;
+        padding: 0px;
+        width: 100%;
+        outline: none;
+    }
+    .caixa-busca img {
+        cursor: pointer;
+        position: relative;
+        right: -15px;
+    }
+
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 50px;
+        overflow: auto;
+        display: inline-block;
+    }
+    th {
+        text-align: center;
+        color: #fff;
+        padding: 25px 40px;
+        font-size: 14px;
+        text-shadow: 0px 1px 4px rgba(217, 217, 217, 0.5);
+        
+    }
+    thead {
+        background-color: #323A45;
+        
+    }
+    td {
+        padding: 25px 40px;
+        font-weight: 500;
+        text-align: center;
+        color: #000;
+    }
+    tbody tr:nth-child(even) {
+        background-color: #EDEDED;
+        
+    }
+    tbody tr:hover {
+        background-color: #e1e1e1;
+    }
+    td img {
+        width: 18px;
+        cursor: pointer;
+    }
+    tr td:nth-child(2) {
+        white-space: nowrap;
+        width: 100px;
+    }
+    tr td:nth-child(1) {
+        color: #000;
+        font-weight: 700;
+    }
+    tr td:nth-last-child(1) * {
+        visibility: hidden;
+        color: #000;
+    }
+    tr:hover td:nth-last-child(1) img {
+        visibility: visible;
+    }
+
+
+
+
+}
+
+
+@media (max-width:1270px) {
+
+
+    .cont-faixa-cadastro{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+
+        .conteudo {
+            display: flex;
+            flex-direction: column;
+            padding: 20px ;
+            background-color: #F5F6FA;
+            height: 80vh;
+        }
+        table {
+            width: 100%;
+            height: 40rem;
+            border-collapse: collapse;
+           
+            overflow: auto;
+            display: inline-block;
+
+         
+        }
+       
+    }
+
+
+
+
+
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+

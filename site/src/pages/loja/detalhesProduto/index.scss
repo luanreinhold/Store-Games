@@ -1,0 +1,169 @@
+.page-produto{
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .display-row{
+        display: flex;
+        flex-direction: row;
+    }
+
+    
+    
+    .box-cima{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        margin-top: 20px;
+
+        .bloc-img{
+            display: flex;
+            flex-direction: column;
+            width: 250px;
+            height: 400px;
+
+            .box-img{
+                height: 350px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .box-img > img{
+                max-width: 220px;
+                // max-height: ;
+            }
+            .favorito{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 10px;
+            }
+            .favorito > p{
+                text-align: center;
+                font-size: 20px;
+                color: #384AEA;
+            }
+            .favorito > img{
+                width: 30px;
+                height: 25px;
+                margin-right: 32px;
+            }
+        }
+
+        .bloc-info{
+            width: 35%;
+            color: #758194;
+        }
+        .bloc-info > h1{
+            font-size: 2.5em;
+        }
+        
+        .bloc-info > div{
+            margin: 15px;
+        }
+        .cont-map{
+            display: flex;
+            flex-direction: row;
+            // justify-content: space-around;
+            flex-wrap: wrap;
+            width: 11rem;
+        }
+
+        .td{
+            padding: 5px;
+        }
+        .bloc-pagamento{
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            
+
+            .card-pagamento{
+                border: 1px solid #758194;
+                width: 350px;
+                height: 240px;
+                border-radius: 20px;
+                padding: 17px;
+                display: flex;
+                flex-direction: column;
+               
+
+                .cima-pagamento{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+
+                .bt-adic{
+                    margin-top: 15px;
+                    width: 100%;
+                    padding: 15px;
+                    border-radius: 12px;
+                    background-color: #384AEA;
+                    border: none;
+                    color: white;
+                }
+            }
+        }
+            
+    }
+    .box-baixo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 50px;
+
+        .bloc-req{
+            width: 39%;
+            color: #758194;
+        }
+        .bloc-req > p{
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .bloc-jogos{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 40%;
+            height: 370px;
+            border: 1px solid #758194;
+            border-radius: 8px;
+            color: #758194;
+            
+            .img-gta{
+                width: 100%;
+                height: 85%;
+            }
+
+            .jogos{
+                width:97%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+
+                .card-genero{
+                    width: 17%;
+                    cursor: pointer;
+                }
+            }
+
+            .btn-loja{
+                width: 30%;
+                padding: 15px;
+                border-radius: 12px;
+                border: none;
+                background-color: #384AEA;
+                color: #ffffff;
+            }
+        }
+    }
+}

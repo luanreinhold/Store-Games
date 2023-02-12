@@ -1,0 +1,515 @@
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .flexboxcolumn {
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    .container-jogos{
+        display: flex;
+        justify-content: center;
+    }
+    .faixa-um {
+        background-color: #E74C3C;
+        height: 75vh;
+        display: flex;
+        flex-direction: row;
+        background-image: url('../../../public/Gameboy.png');
+        background-repeat: no-repeat;
+        background-position: 88% 50%;
+        background-size: 470px 350px;
+    }
+
+    .listra {
+        height: 100%;
+        width: 15%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+    
+  
+    }
+    .botao{
+        align-self: center;
+        height: 2.5rem;
+        width: 8rem;
+        border-radius: 18px;
+        border: none;
+        background-color: #Fff;
+    }
+    .botao:hover{
+        align-self: center;
+        height: 2.5rem;
+        width: 8rem;
+        border-radius: 18px;
+        border: solid 3px black;
+        background-color: #Fff;
+    }
+
+
+    
+    .listra-maiorr { 
+        height: 100%;
+    }
+
+    #listra-menor{
+        height:  60%;
+    }
+    #listra-maior{
+        height: 101.4%;
+       
+    }
+    
+    #gameboy {
+        width: 45%;
+        height: 60%;
+    }
+
+    .box-texto {
+        height: 100%;
+        width: 25%;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .f1-texto-format {
+        margin-left: 4rem;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 22rem;
+        font-family: 'poppins-medium';
+    }
+
+    .f1-title-format{
+        width: 20rem;
+   
+    }
+
+    .f1-texto-format > * {
+        margin-top: 13px;
+        color: #323A45;
+    }
+
+    .f1-texto-format > button {
+        align-self: center;
+        height: 2.5rem;
+        width: 8rem;
+        border-radius: 18px;
+        border: none;
+        text-decoration: none;
+        margin-right: 2.2rem;
+    }
+
+
+    .b1{
+        text-decoration: none;
+        color: #000000;
+        font-family: "robotocon-bold";
+       
+    }
+
+    button:hover {
+        cursor: pointer;
+    }
+
+    .f1-texto-format > h1 {
+        line-height: 1.2em;
+        font-size: 2.5rem;
+    }
+
+    .container-gameboy {
+        height: 100%;
+        background-color: #323A45;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .faixa-dois {
+        padding: 2em;
+       
+        display: flex;
+        flex-direction: column;
+        
+
+        button {
+            align-self: center;
+            height: 2.5rem;
+            width: 8rem;
+            border-radius: 18px;
+            border: none;
+            background-color: #E74C3C;
+            font-family: 'robotocon-bold';
+            color: #ffffff;
+          }
+
+          hr {
+            margin-top: 10px;
+            height: 2px;
+          }
+
+          .f2-texto-format{
+            font-family: "poppins-medium";
+            text-align: center;
+            font-size: 1.4rem;
+            color:#323a45;
+    
+          }
+
+       
+    
+    }
+
+    .faixa-dois-expandida {
+        padding: 2em;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin-right: 2rem;
+        width: 95vw;
+       
+        button {
+            align-self: center;
+            height: 2.5rem;
+            width: 8rem;
+            border-radius: 18px;
+            border: none;
+            background-color: #E74C3C;
+          }
+
+          hr {
+            margin-top: 10px;
+            height: 2px;
+          }
+          .f2-texto-format{
+            font-family: "poppins-medium";
+            text-align: center;
+            font-size: 1.4rem;
+            color:#323a45;
+          } 
+    
+    }
+
+    .faixa-tres {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 75vh;
+        background-color: #D6D6D6;
+
+        .f3-texto-format {  
+            display: flex;
+            flex-direction: column;
+            width: 25rem;
+        }
+
+        .container-hermes {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+        }
+
+        img {
+            width: 65%;
+            height: 85%;
+        }
+
+        .box-texto-f3 {
+            height: 100%;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'robotocon-regular';
+            
+        }
+
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+      }
+      p {
+        margin-bottom: 25px;
+      }
+    }
+
+    .faixa-cadastro {
+        height: 90vh;
+        background-color: #ffffff;
+        padding: 1.5em;
+
+        .container-lobo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 55%;
+            margin-bottom: 10px;
+            background-image: url('../../../public/lobobackground.png');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: 50% 60% ;
+        }
+
+        .container-boxs {
+            display: flex;
+            flex-direction: row;
+            height: 45% ;
+        }
+
+        .box-esquerda {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+            height: 100%;
+            background-color: #596677;
+            margin-right: 10px;
+        }
+
+        .box-direita {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+            height: 100%;
+            background-color: #E74C3C;
+            margin-left: 10px;
+        }
+
+        #img-format-boxes {
+            height: 70%;
+            width: 50%;
+        }
+
+        .box-esquerda-texto {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 30%;
+            width: 100%;
+            background-color: #BDC3CB;
+          
+        }
+        .box-direito-texto {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 30%;
+            width: 100%;
+            background-color: #F4B0A9
+          
+        }
+
+        button {
+            align-self: center;
+            height: 2.5rem;
+            width: 9rem;
+            border-radius: 18px;
+            border: none;
+            background-color: #ffffff;
+            font-family: 'robotocon-bold';
+          }
+
+    }
+
+    .descontos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25vh;
+
+        button {
+            margin-top: 15px;
+            align-self: center;
+            height: 2.5rem;
+            width: 13rem;
+            border-radius: 18px;
+            border: none;
+            background-color: #969494;
+            font-family: 'robotocon-bold';
+          }
+    }
+
+    .jogos-populares{
+        display: flex;
+        flex-direction: column;
+        padding: 2em;
+        background-color: #E74C3C;
+       
+
+        .titulo-jogos{
+            padding: 3em;
+           
+
+            h1{
+                font-size: 50px;
+                color: white;
+            }
+            p{
+                font-size: 20px;
+                margin-top: 1em;
+                color: white;
+            }
+        }
+
+         .slider{
+            margin: 0 auto;
+            width: 800px;
+            height: 400px;
+            overflow: hidden;
+            
+         }
+
+         .slides{
+            width: 400%;
+            height: 400px;
+            display: flex;
+            cursor: pointer;
+            
+         }
+
+          input {
+          overflow: hidden;
+         }
+
+         .slide{
+            width: 25%;
+            position: relative;
+            transition: 3s;
+            
+         }
+
+          img {
+            width: 800px;
+            height: 400px;
+            border-radius: 15px;
+            
+         }
+
+         .manual-navigation{
+            position: absolute;
+            width: 800px;
+            margin-top: -40px;
+            display: flex;
+            justify-content: center;
+         }
+
+         .manual-btn{
+            border: 2px solid #00ffff;
+            padding: 5px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 1s;
+         }
+
+         .manual-btn:not(:last-child){
+            margin-right: 40px;
+         }
+
+         .manual-btn:hover{
+            background-color: cyan;
+         }
+
+         #radio1:checked  {
+            margin-left: 0;
+         }
+
+         #radio2:checked {
+            margin-left: -26.57%;
+         }
+
+         #radio3:checked {
+            margin-left: -51.6%;
+         }
+
+         #radio4:checked {
+            margin-left: -76.7%;
+         }
+
+         .navigation-auto div{
+            border: 2px solid #20a6ff;
+            padding: 5px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 1s;
+         }
+
+         .navigation-auto{
+            position: absolute;
+            width: 800px;
+            margin-top: 360px;
+            display: flex;
+            justify-content: center;
+         }
+
+         .navigation-auto div:not(:last-child){
+            margin-right: 40px;
+         }
+
+         #radio1:checked ~ .navigation-auto .auto-btn1{
+            background-color: cyan;
+         }
+         #radio2:checked ~ .navigation-auto .auto-btn2{
+            background-color: cyan;
+         }
+         #radio3:checked ~ .navigation-auto .auto-btn3{
+            background-color: cyan;
+         }
+         #radio4:checked ~ .navigation-auto .auto-btn4{
+            background-color: cyan;
+         }
+    }
+
+
+    @media  (max-width: 1025px) {
+        
+        
+
+            .faixa-um {
+                .listra-maiorr {
+                    display: none;
+                }
+    
+                .listra {
+                    display: none;
+                }
+    
+                .f1-texto-format {
+                    margin-left: 12rem;
+                    
+                } 
+
+        }
+
+        .jogos-populares{
+            .titulo-jogos{
+                h1{
+                    font-size: 31px;
+                }
+                p{
+                    font-size: 17px;
+                }
+            }
+        }
+       
+
+
+}
+
+
+
+     
+
+}

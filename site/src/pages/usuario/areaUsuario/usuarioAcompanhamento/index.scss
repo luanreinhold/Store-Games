@@ -1,0 +1,124 @@
+.usuario-page-pedidos{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    .container-acomp{
+    display: flex;
+    flex-direction: row;
+    
+    }
+
+    .pop{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        border: solid 1px #000;
+        height: 105%;
+        background-color: #DDDDDD;
+        margin: 1em;
+    }
+
+    .back-pop{
+        display: flex;
+        flex-direction: column;
+        border: solid 1px #323A45;
+        background-color: #323A45;
+        border-radius: 16px;
+        width: 50rem;
+        height: 34rem;
+        
+        h1{
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-family: 'poppins-extrabold';
+            // font-size: 20px;
+        }
+
+        
+        
+    }
+
+    .front-pop{
+        margin: 2em;
+        padding: 20px;
+        border: solid 1px white;
+        background-color: white;
+        border-radius: 16px;
+    }
+
+    .progress-bar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
+    }
+
+    .progress{
+        display: flex;
+        flex-direction: row;
+        margin-top: 1em;
+        justify-content: space-around;
+    }
+    .progress-2{
+        display: flex;
+        flex-direction: row;
+        margin-top: 1em;
+        justify-content: start;
+
+        p{
+            margin-left: 58px;
+        }
+
+        .p{
+            margin-left: 90px;
+        }
+        
+    }
+
+    p, b{
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 15px;
+    }
+
+    .img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       margin-top: -25px;
+    }
+
+    .faixa-informacoes {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 10rem;
+    }
+
+    .status-analise, .status-cancelado, .status-entrega {
+        background-color: white;
+        font-family: 'robotocon-regular';
+        font-size: 16px;
+      
+        
+    }
+    .img-acomp{
+        width: 9rem;
+        margin-left: 5rem;
+    }
+
+   
+    .title-center{
+        text-align: center;
+    }
+
+    .l-right{
+        margin-left: 8rem ;
+    }
+}
+

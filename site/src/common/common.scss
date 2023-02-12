@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+   
+}
+
+
+@font-face {
+    font-family: 'poppins-extrabold';
+    src: url('../fonts/Poppins-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'poppins-medium';
+    src: url('../fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'robotocon-bold';
+    src: url('../fonts/RobotoCondensed-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'robotocon-light';
+    src: url('../fonts/RobotoCondensed-Light.ttf');
+}
+
+@font-face {
+    font-family: 'robotocon-regular';
+    src: url('../fonts/RobotoCondensed-Regular.ttf');
+}
+
+.m-left{
+    margin-left: 7rem;
+}
+
+.m-right{
+    margin-right: 6rem;
+}
+
+.c-red{
+    color: red;
+   
+}
+
+.c-green{
+    color: green;
+}
+
+.bold{
+    font-weight: bold;
+}
+.img-left {
+    margin-left: 7.1rem;
+    width: 9rem;
+}
+
+.font-1{
+    font-family: 'robotocon-bold';
+}

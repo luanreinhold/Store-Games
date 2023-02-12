@@ -1,0 +1,64 @@
+.comp-card{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 74vw;
+
+
+    .BoxCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 13rem;
+        height: 20em;
+        padding: 1rem;
+        border-radius: 15px;
+        background-color: #EDEDED;
+        margin: 2rem 1em 2rem 1em;
+        cursor: pointer;
+
+        .info-jogo{
+            margin-top: 20px;
+            width: 100%;
+        }
+        .box-img{
+            height: 140px;
+            display: flex;
+            justify-content: center;
+            
+        }
+        img {
+            width: 12.2rem;
+            height: 14rem;
+            max-height: 14rem;
+            margin-top: 0.6rem;
+            border-radius: 8px;
+        }
+
+        h4 {
+            font-size: 0.9rem;
+            height: 2rem;
+            font-family: 'robotocon-bold';
+            padding-top: 4.8rem;
+            text-align: center;
+        }
+
+        #card-preco {
+            color: gray;
+            text-align: center;
+            padding: 1.3rem 1rem;
+            margin-top: 1rem;
+        }
+    }
+
+    .BoxCard:hover{
+        background-color: #c8c8c8;
+    }
+
+
+}
+
+
+

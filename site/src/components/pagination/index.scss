@@ -1,0 +1,27 @@
+.pagination{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    border: none;
+
+
+    
+   
+
+    .page-item{
+        border: 1px solid #323A45;
+        text-decoration: none;
+        margin-left: 0.6rem;
+        
+       cursor: pointer;
+
+    }
+
+    .page-link{
+        
+        text-decoration: none;
+       
+        margin: 2px;
+        padding: 10px;
+    }
+}

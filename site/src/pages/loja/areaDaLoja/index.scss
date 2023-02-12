@@ -1,0 +1,146 @@
+.lojaPage{   
+   // a maneira que ta a formatação é: o container de jogos não tem height
+   // os jogos que vão sendo inseridos que dão o tamanho a pagina
+    .faixaum {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url("../../../../public/fundoLoja.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 55vh;
+        text-align: center;
+        p{
+            width: 32rem;
+            font-size: 30px;
+            color: #e0e0e0;
+            font-family: 'poppins-medium';
+        }
+    }
+    .flexboxrow {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+    .container-jogos {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        width: 75%;
+        padding: 1em;
+        
+        background-color: #FFFFFF;
+        
+    }
+
+    .container-filtros {
+        display: flex;
+        flex-direction: column;
+
+        width: 25%;
+        background-color: #323A45;;
+
+    }
+
+    .container {
+       // height fixo 
+       max-width: 200vh;
+    }
+
+    .container-espacamanto {
+        height: 19vh;
+        background-color: #323A45;
+    }
+    
+    .HeaderLoja {
+        width: 100%;
+        height: 9rem;
+        background-color: #323A45;
+        position: fixed;
+    
+        .containerPesquisa {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: 70%;
+    
+    
+        }
+        .containerCategoria {
+            display: flex;
+            flex-direction: row;
+    
+            width: 100%;
+            height: 30%;
+    
+        }
+    
+        .boxUsuario {
+            display: flex;
+            align-items: center;
+            margin-right: 1.5rem;
+            width: 13rem;
+            height: 100%;
+            color: white;
+            font-family: 'poppins-medium';
+        }
+
+        .boxUsuario > img:last-child {
+            margin: 5px;
+            width: 30px;
+            height: 30px;
+    
+            cursor: pointer;
+        }
+
+        .listaOpcoes {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            width: 100%;
+            
+        }
+    
+        .listaOpcoes > a, span {
+            color: white;
+            cursor: pointer;
+            text-decoration: none;
+            font-family: 'poppins-medium';
+        }
+
+        a:hover{
+            color: #ff0000;
+        }
+
+        span:hover {
+            color: #ff0000
+        }
+      
+    
+        #formatLogo {
+            height: 15rem;
+            width: 10rem;
+        }
+    
+        #svgIcon{
+            margin-right: 0.5rem;
+        }
+    }
+
+    @media (max-width: 1025px){
+        .faixaum{
+            height: 45vh;
+            p{
+                font-size: 30px;
+            }
+        }
+
+        
+    }
+}

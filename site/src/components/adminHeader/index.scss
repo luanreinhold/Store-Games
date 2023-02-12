@@ -1,0 +1,31 @@
+.headerAdmin {
+    width: 100%;
+    background-color: #596677;
+    height: 100px;
+    
+    display: inline-block;
+    
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .boxText {
+        color: white;
+        width: 8em;
+        font-family: 'poppins-medium';
+    }
+
+    #adm {
+        color: red
+    }
+
+    .config-btn{
+        cursor: pointer;
+    }
+    .config-btn:hover{
+        width: 12rem;
+    }
+}
+
